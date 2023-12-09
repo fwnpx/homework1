@@ -7,22 +7,21 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Flutter Demo',
-        theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-          useMaterial3: true,
-        ),
-        home: Scaffold(
-        appBar: AppBar(title: Center(child: Text('Nada Bunchongpru',))),
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        useMaterial3: true,
+      ),
+      home: Scaffold(
+        appBar: AppBar(title: Center(child: Text('Wannaporn Onsamlee'))),
         body: Center(
-          child: (
-            Text('ชื่อ: ณดา บรรจงปรุ\nรหัสนักศึกษา: 630710322')
+          child: Text('ชื่อ:วรรณพร อ่อนสำลี\nรหัสนักศึกษา: 630710675'),
         ),
-          ),
-        )
-        );
+      ),
+    );
   }
 }
